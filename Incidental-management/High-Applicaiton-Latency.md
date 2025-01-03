@@ -1,4 +1,4 @@
-# Scenario: Your application is experiencing high latency. How would you diagnose and fix it?
+# SCENARIO: Your application is experiencing high latency. How would you diagnose and fix it?
 ---
 ![High-Application-Latency](https://github.com/user-attachments/assets/6eaf901d-f4ae-4f15-84c0-b0aa902cf94a)
 
