@@ -1,4 +1,4 @@
-# Scenario: A deployment caused unexpected downtime. How would you roll back and prevent this in the future?
+# SCENARIO: A deployment caused unexpected downtime. How would you roll back and prevent this in the future?
 ---
 ![Unexpected-Downtime-Deployment](https://github.com/user-attachments/assets/243395d3-f309-4b0a-a9f4-1ff707f66fad)
 
