@@ -1,5 +1,8 @@
 # High Application Latency
+---
+![High-Application-Latency](https://github.com/user-attachments/assets/6eaf901d-f4ae-4f15-84c0-b0aa902cf94a)
 
+---
 ## Overview
 This document outlines the steps to diagnose, fix, and prevent high application latency issues. It includes detailed guidelines for identifying latency sources, implementing fixes, and ensuring sustained performance.
 
