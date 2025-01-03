@@ -5,30 +5,104 @@
 ---
 Steps to handle the situation:
 
-STEP-1: Acknowledge the incident:
-- Immediately informs the stakeholders about the issue (Team lead, incident management, etc)
-- Update the status page or notification system to inform affected users if applicable.
+## Handling System Incidents: A Comprehensive Guide
 
-STEP-2:  Check monitoring alerts and logs:
-- Review monitoring tools like Prometheus, CloudWatch, or Datadog for alerts.
-- Check system logs (e.g var/logs/syslog) for error messages and abnormal activities
+### Overview
 
-STEP-3: Assess the Issue
-- Identify whether it's a hardware, network,or application level issue.
-- Ping or SSH into the server to determine if it's still reachable.
-- Check disk space,CPU,memory usage or application health.
+This document provides a structured approach to managing system incidents. It includes detailed steps for acknowledging, diagnosing, mitigating, and preventing issues to ensure quick recovery and long-term system reliability. 🌟🌐✨
 
-STEP-4: Immediate Mitigation:
-- Restart the server or failing services if possible.
-- Switch the traffic to a backup server  or instance using load balancers or DNS failover.
+## Steps to Handle the Situation
 
-STEP-5: Root Cause Analysis:
-- Once stability is restored, investigate the root cause of the failure.
-- Documentation the incident and resoltions steps
+### 1. Acknowledge the Incident
 
-Prevention:
+ - Inform Stakeholders: Immediately notify relevant parties, such as the team lead, incident management team, and other stakeholders. 📣💼✅
 
-- Implement redundancy (e.g., auto-scaling groups, multi-AZ deployment).
-- Use automated monitoring and alerting systems.
-- Schedule regular health checks and stress testing.
-  
+ - User Notifications: Update the status page or send notifications to inform affected users, if applicable. 🌍🛠️💡
+
+### 2. Check Monitoring Alerts and Logs
+
+ - Monitoring Tools: Review alerts from tools like Prometheus, CloudWatch, or Datadog. 📊📡🔍
+
+ - System Logs: Analyze logs (e.g., /var/logs/syslog) for error messages or unusual activity. 🗂️📈🛑
+
+### 3. Assess the Issue
+
+- Identify the Source: 🛠️🔎📋
+
+  - Determine if the issue is at the hardware, network, or application level.
+
+- Server Reachability: 🖥️🌐🔓
+
+  - Use tools like ping or SSH to check server availability.
+
+- Resource Metrics: 📉📊💻
+
+ - Disk Space: Ensure sufficient space is available.
+
+ - CPU and Memory: Check for high usage or leaks.
+
+ - Application Health: Confirm service functionality.
+
+### 4. Immediate Mitigation
+
+- Restart Services: Restart the server or failing services to restore normal operation. 🔄🔧✅
+
+- Traffic Redirection: 🛤️🖥️🔄
+
+ - Use load balancers or DNS failover to reroute traffic to backup servers or instances.
+
+### 5. Root Cause Analysis
+
+- Post-Incident Analysis: 📑🔍🛠️
+
+  - Investigate logs, alerts, and monitoring data to identify the root cause.
+
+- Documentation: 📝📚🔍
+
+ - Record the timeline of events, resolution steps, and key findings.
+
+
+## Prevention
+
+### 1. Implement Redundancy
+
+- Set up auto-scaling groups and multi-AZ deployments for high availability. 📈🛡️🌐
+
+### 2. Automate Monitoring and Alerting
+
+- Use tools like Prometheus, Datadog, and CloudWatch to automate monitoring and configure alerts for critical metrics. 🤖🛠️⚙️
+
+### 3. Schedule Regular Maintenance
+
+- Conduct routine health checks and stress testing to identify potential bottlenecks. 🔄🩺🔬
+
+### Tools and References
+
+- Monitoring Tools
+
+  - Prometheus
+
+  - Datadog
+
+  - AWS CloudWatch
+
+- Network and System Utilities
+
+  - ping
+
+  - SSH
+
+- Stress Testing Tools
+
+  - Apache Benchmark (ab)
+
+  - wrk
+
+  - JMeter
+
+- Incident Documentation Tools
+
+  - Jira
+
+  - Confluence
+
