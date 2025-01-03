@@ -1,4 +1,4 @@
-## SCENARIO: Critical Production Server Downtime
+## SCENARIO: A critical production server goes down. How would you handle the situation?
 ---
 ![Server-Down-time-prevention](https://github.com/user-attachments/assets/a31133c2-847a-421b-ba90-042a1fe38866)
 
