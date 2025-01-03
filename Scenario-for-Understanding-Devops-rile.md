@@ -1,5 +1,8 @@
 ## SCENARIO: Critical Production Server Downtime
+---
+![Server-Down-time-prevention](https://github.com/user-attachments/assets/a31133c2-847a-421b-ba90-042a1fe38866)
 
+---
 Steps to handle the situation:
 
 STEP-1: Acknowledge the incident:
@@ -21,4 +24,11 @@ STEP-4: Immediate Mitigation:
 
 STEP-5: Root Cause Analysis:
 - Once stability is restored, investigate the root cause of the failure.
-- Documentation the incident and resoltions steps   
+- Documentation the incident and resoltions steps
+
+Prevention:
+
+- Implement redundancy (e.g., auto-scaling groups, multi-AZ deployment).
+- Use automated monitoring and alerting systems.
+- Schedule regular health checks and stress testing.
+  
