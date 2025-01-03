@@ -1,4 +1,9 @@
-# Managing Unexpected Downtime Due to Deployment
+# Scenario: A deployment caused unexpected downtime. How would you roll back and prevent this in the future?
+---
+![Unexpected-Downtime-Deployment](https://github.com/user-attachments/assets/243395d3-f309-4b0a-a9f4-1ff707f66fad)
+
+---
+## Managing Unexpected Downtime Due to Deployment
 
 ## Overview
 This document provides a comprehensive guide to managing unexpected downtime caused by deployments. It outlines steps for rolling back, assessing impact, deploying hotfixes, and implementing preventive measures to ensure system reliability and seamless user experience. 🌟🔧✨
